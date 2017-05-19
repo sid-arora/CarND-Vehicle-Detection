@@ -11,6 +11,8 @@
 * Implement a sliding-window technique and use your trained classifier to search for vehicles in images.
 * Run your pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
+Â
+[//]: # (Image References)
 
 [image1]: ./output_images/1.image_with_boxes_out.png "image_with_boxes_out"
 [image2]: ./output_images/3.car_and_hog_Out.png "car_and_hog_Out"
@@ -76,6 +78,7 @@ The total HOG features are :  **(1764,)**
 Example:
 
 ![alt text][image14]
+
 ![alt text][image15]
 
 **2. Explain how you settled on your final choice of HOG parameters.**
